@@ -1,0 +1,2 @@
+# fiction_removeAD_chrome_extend
+去除网页小说的广告，先在PC端尝试，再准备应用在手机端
