@@ -1,5 +1,6 @@
 (function () {
     function stopAD(){
+        // 针对 手机百度小说的广告
         var adNode = document.getElementsByClassName('afd-ad')
         var adBottomNode = document.getElementsByClassName('banner')
         var bottomOperateTop = document.getElementsByClassName('bottomOperateTop')
