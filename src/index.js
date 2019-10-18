@@ -14,6 +14,10 @@
             bottomOperateTop[k].style.display = 'none'
         }
     }
+    
+    var originHeight = document.body.scrollHeight;
+    console.log('originHeight', originHeight)
+    stopAD()
 
     window.addEventListener('onload', function(e){
         stopAD()
@@ -21,10 +25,15 @@
 
     // 监听页面高度变化
     window.addEventListener('scroll', function (e) {
-        stopAD()        
+        var lastHeight = document.body.scrollHeight
+        console.log('lastHeight:', lastHeight)
+        if(lastHeight > originHeight){
+            originHeight = lastHeight
+            stopAD()        
+        }
     })
 
-    stopAD()
+    
 
 })()
 
