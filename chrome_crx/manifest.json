@@ -1,0 +1,16 @@
+{
+    "name": "屏蔽小说A_D",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "初始版本针对特定的网页小说去除广告，是个人在看小说的时候突发奇想所开始制作的",
+    "browser_action": {
+        "default_icon": "icons/remove_ad_48.png",
+        "default_popup": "src/index.html",
+        "defalut_title": "halo, 开始屏蔽广告吧，享受小说阅读"
+    },
+    "icons": {
+        "16": "icons/remove_ad_16.png",
+        "48": "icons/remove_ad_48.png",
+        "128": "icons/remove_ad_128.png" 
+    }
+}

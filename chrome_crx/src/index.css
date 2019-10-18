@@ -1,0 +1,10 @@
+.container{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    font-size: 24px;
+}
+#jsAction{
+    margin-top: 20px;
+    text-align: center;
+}
