@@ -1,0 +1,14 @@
+{
+    "name": "微信公众号自定义样式说明",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "想对微信公众号文章自定义样式，还没完善，先写好样式先吧，作为一个记录",
+    "browser_action": {
+        "default_icon": "icon/wx.png",
+        "default_popup": "src/index.html",
+        "defalut_title": ""
+    },
+    "icons": {
+        "48": "icon/wx.png"
+    }
+}
